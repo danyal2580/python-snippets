@@ -15,6 +15,8 @@ elif z== "*":
 elif z== "/":
      if y==0:
         print("Error:division with zero is not allowed")
+     else:
+        print(f"Division {x/y}")
      
 else:
   print("end")   
